@@ -74,6 +74,7 @@ EOF
 
 COPY --link root/ /
 
+VOLUME /mnt/source
 VOLUME /root/.borgmatic
 VOLUME /root/.config/borg
 VOLUME /root/.cache/borg
